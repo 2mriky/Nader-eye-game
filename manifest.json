@@ -1,0 +1,10 @@
+{
+  "name": "عين نادر · Nader's Eye",
+  "short_name": "عين نادر",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#14100c",
+  "theme_color": "#14100c",
+  "icons": [{ "src": "assets/ui/bag_closed.webp", "sizes": "240x244", "type": "image/webp" }]
+}

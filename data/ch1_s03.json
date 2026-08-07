@@ -1,0 +1,126 @@
+{
+  "scene_id": "ch1_s03",
+  "canvas": [
+    1290,
+    2796
+  ],
+  "play_area": [
+    0,
+    280,
+    1290,
+    2181
+  ],
+  "background": "assets/bg/ch1_s03.webp",
+  "character": "nader",
+  "objectives": [
+    "draw",
+    "stack",
+    "watch",
+    "box"
+  ],
+  "hotspots": [
+    {
+      "id": "nail",
+      "image": "assets/props/ch1_s03_nail.webp",
+      "x": 588,
+      "y": 1038,
+      "w": 72,
+      "h": 85,
+      "rect": [
+        564,
+        1020,
+        120,
+        120
+      ],
+      "layer": "mid",
+      "type": "flavor",
+      "requires": null,
+      "yields": null,
+      "dlg": "cellar_nail"
+    },
+    {
+      "id": "stack",
+      "image": "assets/props/ch1_s03_stack.webp",
+      "x": 3,
+      "y": 1486,
+      "w": 199,
+      "h": 163,
+      "rect": [
+        3,
+        1486,
+        199,
+        163
+      ],
+      "layer": "mid",
+      "type": "pickup",
+      "requires": null,
+      "yields": "ledger"
+    },
+    {
+      "id": "watch",
+      "image": "assets/props/ch1_s03_watch.webp",
+      "x": 643,
+      "y": 1963,
+      "w": 111,
+      "h": 107,
+      "rect": [
+        638,
+        1956,
+        120,
+        120
+      ],
+      "layer": "front",
+      "type": "pickup",
+      "requires": null,
+      "yields": "watch3"
+    },
+    {
+      "id": "draw",
+      "image": "assets/props/ch1_s03_draw.webp",
+      "x": 155,
+      "y": 1964,
+      "w": 165,
+      "h": 202,
+      "rect": [
+        155,
+        1964,
+        165,
+        202
+      ],
+      "layer": "front",
+      "type": "pickup",
+      "requires": null,
+      "yields": "child_drawing"
+    },
+    {
+      "id": "box",
+      "image": "assets/props/ch1_s03_box.webp",
+      "x": 899,
+      "y": 2049,
+      "w": 336,
+      "h": 339,
+      "rect": [
+        899,
+        2049,
+        336,
+        339
+      ],
+      "layer": "front",
+      "type": "container",
+      "requires": "crowbar",
+      "yields": "shahed",
+      "dlg": "box_opened"
+    }
+  ],
+  "exits": [
+    {
+      "to": "ch1_s02",
+      "x": 120,
+      "y": 420,
+      "icon": "arrow_back",
+      "dir": "back"
+    }
+  ],
+  "title_ar": "المخزن",
+  "title_en": "The Cellar"
+}

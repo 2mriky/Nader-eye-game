@@ -111,8 +111,8 @@
   "exits": [
     {
       "to": "ch1_s02",
-      "x": 120,
-      "y": 420,
+      "x": 150,
+      "y": 2320,
       "icon": "arrow_back",
       "dir": "back"
     }

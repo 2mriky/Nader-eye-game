@@ -1,27 +1,27 @@
-# عين نادر · Nader's Eye — Vertical Slice
+# عين نادر · Nader's Eye — v2
 
-## تشغيل محلي
-    cd game
+## تشغيل
+    cd <folder>
     python3 -m http.server 8000
-ثم افتح http://localhost:8000  (لازم سيرفر — الـ fetch مش بيشتغل من file://)
+افتح http://localhost:8000  ← **لازم سيرفر**، الدبل كليك مش هيشتغل.
+(لو `cd game` مشتغلش، معناها اسم المجلد مختلف — اكتب `ls` وشوف اسمه)
 
-## على الفون
-ارفع المجلد على GitHub (private) ووصّله بـ Cloudflare Pages أو Vercel.
-افتح اللينك على الآيفون ← Share ← Add to Home Screen.
+## المشاهد — data/*.json
 
-## تعديل المشاهد
-كل حاجة في `data/*.json`. مفيش كود بيتغير.
-
-| الحقل | يعني |
+| type | معناه |
 |---|---|
-| `type` | `pickup` تتشال · `container` محتاجة أداة · `line` القرص · `flavor` كلام بس |
-| `yields` | اسم الحاجة اللي بتدخل الشنطة |
-| `requires` | اسم الحاجة المطلوبة عشان تفتح |
-| `rect` | منطقة النقر [x, y, w, h] |
-| `objectives` | اللي بيظهر في الشريط تحت |
+| `find` | تدوس تتشال، تتشطب من الشريط تحت. **متدخلش الشنطة** |
+| `tool` | تتشال وتدخل **الشنطة** — عشان تستخدمها بعدين |
+| `container` | محتاجة أداة الأول (`requires`) |
+| `talk` | كلام بس، متتشالش |
 
-## أصول جديدة
-    python3 build_scene.py "./hidden Objects/ch1_s01" --scene ch1_s01 --bg assets/bg/ch1_s01.webp
+`yields` = اسم الحاجة في الشنطة (لـ tool و container بس)
+`requires` = اسم الحاجة المطلوبة للفتح
+`rect` = منطقة النقر [x,y,w,h]
+`objectives` = اللي بيظهر في الشريط تحت (٤ في المرة)
 
-## تصفير الحفظ
-اكتب في الكونسول: `resetSave()`
+## المقاسات
+كلها في بلوك `L` أول `game.js`.
+
+## تصفير
+`resetSave()` في الكونسول، أو زرار "من الأول".

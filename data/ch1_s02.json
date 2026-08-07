@@ -1,0 +1,130 @@
+{
+  "scene_id": "ch1_s02",
+  "canvas": [
+    1290,
+    2796
+  ],
+  "play_area": [
+    0,
+    280,
+    1290,
+    2181
+  ],
+  "background": "assets/bg/ch1_s02.webp",
+  "character": "nader",
+  "objectives": [
+    "key",
+    "crowbar",
+    "stack",
+    "watch"
+  ],
+  "hotspots": [
+    {
+      "id": "nail",
+      "image": "assets/props/ch1_s02_nail.webp",
+      "x": 1128,
+      "y": 906,
+      "w": 71,
+      "h": 85,
+      "rect": [
+        1103,
+        888,
+        120,
+        120
+      ],
+      "layer": "back",
+      "type": "talk",
+      "requires": null,
+      "dlg": "stairs_nail"
+    },
+    {
+      "id": "watch",
+      "image": "assets/props/ch1_s02_watch.webp",
+      "x": 337,
+      "y": 1017,
+      "w": 133,
+      "h": 128,
+      "rect": [
+        337,
+        1017,
+        133,
+        128
+      ],
+      "layer": "mid",
+      "type": "find",
+      "requires": null
+    },
+    {
+      "id": "stack",
+      "image": "assets/props/ch1_s02_stack.webp",
+      "x": 358,
+      "y": 1225,
+      "w": 246,
+      "h": 202,
+      "rect": [
+        358,
+        1225,
+        246,
+        202
+      ],
+      "layer": "mid",
+      "type": "find",
+      "requires": null
+    },
+    {
+      "id": "crowbar",
+      "image": "assets/props/ch1_s02_crowbar.webp",
+      "x": 669,
+      "y": 1573,
+      "w": 205,
+      "h": 88,
+      "rect": [
+        669,
+        1557,
+        205,
+        120
+      ],
+      "layer": "mid",
+      "type": "tool",
+      "requires": null,
+      "yields": "crowbar"
+    },
+    {
+      "id": "key",
+      "image": "assets/props/ch1_s02_key.webp",
+      "x": 457,
+      "y": 1720,
+      "w": 133,
+      "h": 56,
+      "rect": [
+        457,
+        1688,
+        133,
+        120
+      ],
+      "layer": "mid",
+      "type": "tool",
+      "requires": null,
+      "yields": "cellar_key"
+    }
+  ],
+  "exits": [
+    {
+      "to": "ch1_s01",
+      "x": 120,
+      "y": 420,
+      "icon": "arrow_back",
+      "dir": "back"
+    },
+    {
+      "to": "ch1_s03",
+      "x": 645,
+      "y": 2280,
+      "icon": "arrow_nav",
+      "dir": "down",
+      "requires": "cellar_key"
+    }
+  ],
+  "title_ar": "السلم",
+  "title_en": "The Stairs"
+}

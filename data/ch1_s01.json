@@ -1,0 +1,138 @@
+{
+  "scene_id": "ch1_s01",
+  "canvas": [
+    1290,
+    2796
+  ],
+  "play_area": [
+    0,
+    280,
+    1290,
+    2181
+  ],
+  "background": "assets/bg/ch1_s01.webp",
+  "character": "nader",
+  "objectives": [
+    "watch",
+    "battery",
+    "stack",
+    "radio",
+    "mat"
+  ],
+  "hotspots": [
+    {
+      "id": "nail",
+      "image": "assets/props/ch1_s01_nail.webp",
+      "x": 956,
+      "y": 909,
+      "w": 50,
+      "h": 61,
+      "rect": [
+        921,
+        879,
+        120,
+        120
+      ],
+      "layer": "back",
+      "type": "talk",
+      "requires": null,
+      "dlg": "nail_line"
+    },
+    {
+      "id": "battery",
+      "image": "assets/props/ch1_s01_battery.webp",
+      "x": 641,
+      "y": 1514,
+      "w": 39,
+      "h": 69,
+      "rect": [
+        600,
+        1488,
+        120,
+        120
+      ],
+      "layer": "mid",
+      "type": "find",
+      "requires": null
+    },
+    {
+      "id": "radio",
+      "image": "assets/props/ch1_s01_radio.webp",
+      "x": 449,
+      "y": 1696,
+      "w": 141,
+      "h": 111,
+      "rect": [
+        449,
+        1691,
+        141,
+        120
+      ],
+      "layer": "mid",
+      "type": "find",
+      "requires": null
+    },
+    {
+      "id": "watch",
+      "image": "assets/props/ch1_s01_watch.webp",
+      "x": 327,
+      "y": 2026,
+      "w": 71,
+      "h": 69,
+      "rect": [
+        302,
+        2000,
+        120,
+        120
+      ],
+      "layer": "front",
+      "type": "find",
+      "requires": null
+    },
+    {
+      "id": "stack",
+      "image": "assets/props/ch1_s01_stack.webp",
+      "x": 75,
+      "y": 2298,
+      "w": 142,
+      "h": 117,
+      "rect": [
+        75,
+        2296,
+        142,
+        120
+      ],
+      "layer": "front",
+      "type": "find",
+      "requires": null
+    },
+    {
+      "id": "mat",
+      "image": "assets/props/ch1_s01_mat.webp",
+      "x": 404,
+      "y": 1932,
+      "w": 846,
+      "h": 695,
+      "rect": [
+        404,
+        1932,
+        846,
+        695
+      ],
+      "layer": "front",
+      "type": "find",
+      "requires": null
+    }
+  ],
+  "exits": [
+    {
+      "to": "ch1_s02",
+      "x": 1080,
+      "y": 1180,
+      "icon": "arrow_nav",
+      "dir": "right"
+    }
+  ],
+  "title_ar": "الأوضة",
+  "title_en": "Living Room"
+}

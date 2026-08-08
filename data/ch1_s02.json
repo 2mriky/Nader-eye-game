@@ -35,7 +35,7 @@
       "layer": "back",
       "type": "talk",
       "requires": null,
-      "dlg": "stairs_nail"
+      "dlg": "stairs_marks"
     },
     {
       "id": "watch",
@@ -122,7 +122,8 @@
       "y": 2280,
       "icon": "arrow_nav",
       "dir": "down",
-      "requires": "cellar_key"
+      "requires": "cellar_key",
+      "consumes": true
     }
   ],
   "title_ar": "السلم",

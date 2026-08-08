@@ -15,8 +15,7 @@
   "objectives": [
     "draw",
     "stack",
-    "watch",
-    "box"
+    "watch"
   ],
   "hotspots": [
     {
@@ -35,7 +34,7 @@
       "layer": "mid",
       "type": "talk",
       "requires": null,
-      "dlg": "cellar_nail"
+      "dlg": "cellar_air"
     },
     {
       "id": "stack",
@@ -102,7 +101,7 @@
         339
       ],
       "layer": "front",
-      "type": "container",
+      "type": "finale",
       "requires": "crowbar",
       "yields": "shahed",
       "dlg": "box_opened"

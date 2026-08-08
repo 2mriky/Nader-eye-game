@@ -16,8 +16,7 @@
     "watch",
     "battery",
     "stack",
-    "radio",
-    "mat"
+    "radio"
   ],
   "hotspots": [
     {
@@ -34,7 +33,7 @@
         120
       ],
       "layer": "back",
-      "type": "talk",
+      "type": "line",
       "requires": null,
       "dlg": "nail_line"
     },
@@ -120,8 +119,9 @@
         695
       ],
       "layer": "front",
-      "type": "find",
-      "requires": null
+      "type": "talk",
+      "requires": null,
+      "dlg": "mat_talk"
     }
   ],
   "exits": [
